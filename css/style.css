@@ -1,1 +1,114 @@
 
+  .mb-navbar {
+    display: none;
+  }
+
+nav {
+  list-style-type: none;
+  text-align: center;
+  margin-top: -14px;
+}
+
+.nav > li {
+  background-color: yellow;
+  display: inline-block;
+  margin-right: 30px;
+  line-height: 20px;
+  margin-top: 15px;
+}
+
+.transblock {
+  background-color: #000000;
+  opacity: 0.6;
+  height: 750px;
+  color: #ffffff;
+  text-align: center;
+  padding-top: 119px;
+}
+
+html {
+  font-size: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+body {
+  font-family: 'Castoro', serif;
+  overflow-y: hidden;
+  /* Hide vertical scrollbar */
+  overflow-x: hidden;
+  /* Hide horizontal scrollbar */
+}
+
+.grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.bg {
+  background-image: url("../images/img2.jpg");
+  position: relative;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center center;
+  height: 750px;
+}
+
+@media screen and (max-width: 699px) {
+  html{
+      overflow-y: hidden;
+      overflow-x: hidden;
+  }
+  
+  .bg-dark {
+    background-color: orange !important;
+  }
+
+  body{
+    width: 100%;
+  }
+
+  .nav-link {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+  }
+
+  .navbar-brand {
+    margin-right: 17rem;
+  }
+
+  .mb-navbar{
+    display: inherit;
+    padding-top: 20px;
+  }
+
+  .bg {
+    background-size: cover;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+h1, h2, p {
+  color: #ffffff;
+  padding: 3%;
+}
+
+button {
+  background-color: orange;
+  padding: 0 30px 0 30px;
+  color: white;
+  
+}
+/*# sourceMappingURL=style.css.map */
